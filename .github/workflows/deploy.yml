@@ -33,6 +33,11 @@ jobs:
       - name: Build
         run: npm run build
 
+      # ✅ Debug: show build output
+      - name: Check dist folder
+        run: ls -R dist
+
+      # Add 404 fallback for React Router / Vite SPA
       - name: Add 404 fallback
         run: cp dist/index.html dist/404.html
 
