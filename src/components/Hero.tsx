@@ -16,7 +16,7 @@ const Hero = () => {
                 Manu Raphy
               </h1>
               <h2 className="text-2xl lg:text-3xl font-light text-white/90">
-                Senior iOS Engineer
+                Lead iOS Engineer
               </h2>
               <p className="text-xl text-white/80 max-w-2xl leading-relaxed">
                 12+ years building secure, scalable mobile applications in Swift & SwiftUI. 
@@ -49,8 +49,8 @@ const Hero = () => {
               </Button>
               <Button 
                 size="lg" 
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-primary font-semibold px-8"
+                variant="secondary"
+                className="bg-white text-primary hover:bg-white/90 font-semibold px-8"
                 onClick={() => window.open('https://linkedin.com/in/manuraphy', '_blank')}
               >
                 <Linkedin className="h-5 w-5 mr-2" />
@@ -62,7 +62,7 @@ const Hero = () => {
           {/* Profile Photo */}
 <div className="flex justify-center lg:justify-end">
   <div className="relative">
-    <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-8 border-white/20 shadow-2xl bg-primary/20 flex items-center justify-center">
+    <div className="w-80 h-80 lg:w-116 lg:h-116 rounded-full overflow-hidden border-8 border-white/20 shadow-2xl bg-primary/20 flex items-center justify-center">
       <img
         src={photo}
         alt="Manu Raphy"
