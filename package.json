@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://manuraphy.github.io/manuraphy-ios-dev",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
