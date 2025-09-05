@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 27%;
 
-    --primary: 188 94% 48%;
+    --primary: 210 90% 40%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 210 40% 96%;
     --muted-foreground: 215 16% 47%;
 
-    --accent: 188 100% 42%;
+    --accent: 220 90% 30%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
@@ -34,17 +34,17 @@ All colors MUST be HSL.
 
     --border: 215 28% 17%;
     --input: 215 28% 17%;
-    --ring: 188 94% 48%;
+    --ring: 210 90% 40%;
 
     --radius: 0.75rem;
 
     /* Professional Portfolio Colors */
-    --hero-gradient: linear-gradient(135deg, hsl(188 94% 48%) 0%, hsl(200 100% 45%) 100%);
+    --hero-gradient: linear-gradient(135deg, hsl(210 90% 40%) 0%, hsl(220 90% 30%) 100%);
     --card-gradient: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(210 40% 98%) 100%);
     --section-bg: 210 40% 98%;
     --text-muted: 215 16% 57%;
-    --skill-bg: 188 100% 95%;
-    --skill-text: 188 100% 35%;
+    --skill-bg: 210 90% 95%;
+    --skill-text: 210 90% 35%;
     
     /* Animations */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -77,7 +77,7 @@ All colors MUST be HSL.
     --popover: 215 25% 20%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 188 94% 48%;
+    --primary: 210 80% 55%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 215 25% 25%;
@@ -86,7 +86,7 @@ All colors MUST be HSL.
     --muted: 215 25% 25%;
     --muted-foreground: 215 10% 65%;
 
-    --accent: 188 100% 42%;
+    --accent: 220 80% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62% 50%;
@@ -94,15 +94,15 @@ All colors MUST be HSL.
 
     --border: 215 25% 25%;
     --input: 215 25% 25%;
-    --ring: 188 94% 48%;
+    --ring: 210 80% 55%;
     
     /* Dark mode adjustments */
-    --hero-gradient: linear-gradient(135deg, hsl(188 94% 40%) 0%, hsl(200 100% 35%) 100%);
+    --hero-gradient: linear-gradient(135deg, hsl(210 80% 55%) 0%, hsl(220 80% 45%) 100%);
     --card-gradient: linear-gradient(145deg, hsl(215 25% 20%) 0%, hsl(215 25% 22%) 100%);
     --section-bg: 215 25% 18%;
     --text-muted: 215 10% 65%;
-    --skill-bg: 188 50% 25%;
-    --skill-text: 188 80% 70%;
+    --skill-bg: 220 30% 20%;
+    --skill-text: 210 80% 70%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

@@ -11,9 +11,18 @@ const About = () => {
         
         <div className="bg-card-gradient rounded-2xl p-8 lg:p-12 shadow-lg card-hover">
           <p className="text-lg leading-relaxed text-muted-foreground mb-8">
-            iOS engineer with <strong className="text-primary">12+ years</strong> of experience building secure, 
-            scalable applications in <strong className="text-primary">Swift/Objective-C</strong> and 
-            <strong className="text-primary"> SwiftUI/UIKit</strong> across banking, trading, and public safety sectors.
+            <strong className="text-primary">Innovating Mobile Experiences with Expertise & AI-Driven Development.</strong>
+
+          </p>
+           
+          <p className="text-lg leading-relaxed text-muted-foreground mb-8">
+            Dynamic mobile application development leader with <strong className="text-primary">12+ years of experience</strong> in iOS <strong className="text-primary"> (Objective-C/Swift/Swift UI) </strong> 
+and cross-platform frameworks <strong className="text-primary">(React Native/Flutter)</strong>. Skilled in <strong className="text-primary">solution architecture</strong>, <strong className="text-primary">agile methodologies</strong>, 
+and team <strong className="text-primary">leadership</strong>, I excel at delivering high-performance mobile applications tailored to business needs. 
+          </p>
+          <p className="text-lg leading-relaxed text-muted-foreground mb-8">
+By <strong className="text-primary">leveraging AI tools</strong> and prompt engineering, I accelerate development, automate workflows, 
+and enhance productivity — ensuring faster delivery of cutting-edge mobile solutions across industries.
           </p>
           
           <p className="text-lg leading-relaxed text-muted-foreground mb-8">
