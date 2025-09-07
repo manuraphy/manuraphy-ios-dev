@@ -37,10 +37,10 @@ and enhance productivity — ensuring faster delivery of cutting-edge mobile sol
               <div className="space-y-3">
                 <div>
                   <h4 className="font-medium">MCA - MG University, Kottayam</h4>
-                  <p className="text-muted-foreground">Software Development & Analysis</p>
+                  <p className="text-muted-foreground">Computer Applications & Software Development</p>
                 </div>
                 <div>
-                  <h4 className="font-medium">B.Sc. - MG University</h4>
+                  <h4 className="font-medium">B.Sc. - MG University, Kottayam</h4>
                   <p className="text-muted-foreground">Mathematics & Statistics</p>
                 </div>
               </div>
