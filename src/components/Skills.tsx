@@ -1,41 +1,51 @@
 const Skills = () => {
   const skillCategories = [
-    {
-      title: "Languages & Frameworks",
-      skills: [
-        "Swift", "SwiftUI", "UIKit", "Objective-C", "iOS SDK", 
-        "Xcode", "React Native", "Flutter"
-      ]
-    },
-    {
-      title: "Architecture & Design",
-      skills: [
-        "MVVM", "MVC", "SOLID Principles", "Modularization", 
-        "State Management", "Multithreading (GCD/Operations)"
-      ]
-    },
-    {
-      title: "Networking & APIs",
-      skills: [
-        "REST APIs", "Authentication", "JSON", "URLSession/Alamofire", 
-        "Error Handling", "Caching", "Retry Logic"
-      ]
-    },
-    {
-      title: "Quality & DevOps",
-      skills: [
-        "Unit Testing (XCTest)", "UI Testing (XCUITest)", "Code Review", 
-        "CI/CD", "GitHub Actions", "App Store Distribution"
-      ]
-    },
-    {
-      title: "Tools & Process",
-      skills: [
-        "Agile/Scrum", "JIRA/Confluence", "Git", "Push Notifications", 
-        "SiriKit", "WatchOS", "ARKit", "Touch ID"
-      ]
-    }
-  ];
+  {
+    title: "Languages & Frameworks",
+    skills: [
+      "Swift", "SwiftUI", "UIKit", "Objective-C", 
+      "React Native", "Flutter", "Combine", "iOS SDK"
+    ]
+  },
+  {
+    title: "Architecture & Design",
+    skills: [
+      "MVVM", "MVC", "VIPER (exposure)", "SOLID Principles", 
+      "Clean Architecture", "Modularization", 
+      "State Management", "Concurrency (GCD/Operations/async-await)"
+    ]
+  },
+  {
+    title: "Networking & APIs",
+    skills: [
+      "REST APIs", "GraphQL (exposure)", "Authentication (OAuth/JWT)", 
+      "URLSession / Alamofire", "Error Handling & Retry Logic", 
+      "Response Caching", "Secure Data Handling"
+    ]
+  },
+  {
+    title: "Quality & DevOps",
+    skills: [
+      "Unit Testing (XCTest)", "UI Testing (XCUITest)", "TestFlight & App Store Distribution",
+      "CI/CD Pipelines", "GitHub Actions"
+    ]
+  },
+  {
+    title: "AI & Productivity",
+    skills: [
+      "AI-Assisted Development", "Prompt Engineering", 
+      "Automation of Workflows", "Code Generation Tools"
+    ]
+  },
+  {
+    title: "Tools & Process",
+    skills: [
+      "Xcode", "Git/GitHub", "Agile/Scrum", 
+      "JIRA / Confluence", "Figma (collaboration)"
+    ]
+  }
+];
+
 
   return (
     <section id="skills" className="section-padding bg-section-bg">

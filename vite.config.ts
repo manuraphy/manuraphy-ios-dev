@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-  base: "/manuraphy-ios-dev/",
+  base: mode === "production" ? "/manuraphy-ios-dev/" : "/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
